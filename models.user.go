@@ -20,8 +20,8 @@ type user struct {
 // of using them as we're doing in this demo
 var userList = []user{
 	user{Username: "user1", Password: "pass1"},
-	user{Username: "user2", Password: "pass2"},
-	user{Username: "user3", Password: "pass3"},
+	user{Username: "smaruf", Password: "ami01"},
+	user{Username: "msmaruf", Password: "ami02"},
 }
 
 // Check if the username and password combination is valid

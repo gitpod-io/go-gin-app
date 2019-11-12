@@ -14,7 +14,7 @@ func showIndexPage(c *gin.Context) {
 
 	// Call the render function with the name of the template to render
 	render(c, gin.H{
-		"title":   "Home Page",
+		"title":   "Article Home",
 		"payload": articles}, "index.html")
 }
 

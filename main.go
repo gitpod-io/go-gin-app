@@ -10,7 +10,7 @@ import (
 
 var router *gin.Engine
 
-func main() {
+func main() { // Starting point
 	// Set Gin to production mode
 	gin.SetMode(gin.ReleaseMode)
 
