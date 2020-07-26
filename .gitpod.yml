@@ -1,3 +1,6 @@
+image:
+  file: .gitpod.Dockerfile
+
 ports:
   - port: 8080
     onOpen: open-preview
@@ -5,10 +8,9 @@ checkoutLocation: "go/src/github.com/demo-apps/go-gin-app"
 workspaceLocation: "go/src/github.com/demo-apps/go-gin-app"
 tasks:
   - init: >
-      go get -v ./... &&
-      go build -o app
+      go get -v ./... && go build -o app
     command: >
       ./app
 github:
-    prebuilds:
-        pullRequestsFromForks: true
+  prebuilds:
+    pullRequestsFromForks: true
