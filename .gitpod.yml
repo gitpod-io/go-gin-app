@@ -12,3 +12,6 @@ tasks:
 github:
     prebuilds:
         pullRequestsFromForks: true
+vscode:
+  extensions:
+    - golang.Go@0.19.0
