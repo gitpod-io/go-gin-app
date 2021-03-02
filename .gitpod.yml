@@ -5,7 +5,6 @@ checkoutLocation: "go/src/github.com/demo-apps/go-gin-app"
 workspaceLocation: "go/src/github.com/demo-apps/go-gin-app"
 tasks:
   - init: >
-      go get -v ./... &&
       go build -o app
     command: >
       ./app
