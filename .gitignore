@@ -24,5 +24,4 @@ _testmain.go
 *.prof
 
 app
-.vscode
 debug
